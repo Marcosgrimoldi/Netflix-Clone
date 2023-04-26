@@ -9,7 +9,7 @@ datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
 }
-//Modelos
+ //Modelos
 //image String? ||esto significa que es opcional, talvez tengamos y talvez no
 
 //hashedPassword String? es opcional por que si se usa google o github para iniciar secion no la necesita 
