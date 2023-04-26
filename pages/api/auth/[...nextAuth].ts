@@ -43,7 +43,7 @@ export default NextAuth({
     }),
   ],
   pages: {
-    signIn: "/auth",
+    signIn: "/Auth",
   },
   debug: process.env.NODE_ENV == "development",
   session: {
